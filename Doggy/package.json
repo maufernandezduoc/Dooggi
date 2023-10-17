@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test.e2e": "cypress run",
     "test.unit": "vitest",
-    "lint": "eslint"
+    "lint": "eslint",
+    "start": "serve dist -s -n -l -p $PORT"
   },
   "dependencies": {
     "@capacitor/app": "5.0.6",
@@ -25,7 +26,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^5.3.4",
-    "react-router-dom": "^5.3.4"
+    "react-router-dom": "^5.3.4",
+    "serve": "^14.2.1"
   },
   "devDependencies": {
     "@capacitor/cli": "5.5.0",
