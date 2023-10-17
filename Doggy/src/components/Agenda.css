@@ -1,0 +1,13 @@
+/* styles.css */
+.calendar-available .datetime-text {
+    color: green; /* Cambia el color del número de día a verde */
+  }
+  
+  .calendar-available .datetime-text::before {
+    border-color: green; /* Cambia el color del círculo alrededor del número de día a verde */
+  }
+.selected-hour {
+    background-color: rgb(21, 175, 21);
+    color: rgb(47, 0, 255); /* Cambia el color del texto para que sea legible en verde */
+  }
+  

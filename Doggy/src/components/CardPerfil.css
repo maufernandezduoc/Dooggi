@@ -1,0 +1,13 @@
+
+
+.profile-image-container {
+    text-align: center;
+    margin-top: 20px; /* Ajusta la distancia entre la imagen y el título */
+  }
+  
+  .profile-image {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: 100px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+  }
+  
